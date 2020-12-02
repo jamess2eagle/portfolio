@@ -28,7 +28,7 @@
 }
 
 .container {
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
   left: 0px;
 }
@@ -41,6 +41,13 @@
 h1 {
   padding: 0px;
   text-align: center;
+  position: relative;
+}
+
+#links {
+  position:absolute;
+  left: 80%;
+  top: 120px;
 }
 
 h2{
@@ -52,10 +59,10 @@ h2{
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   outline: black;
-  background-color: skyblue;
+  background-color:green;
   background-size: 100%, 100%;
   border-radius: 50%;
   border: 1px solid black;
