@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Park's Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <a class="navbar-brand border border-secondary rounded" href="index.html">Home</a>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" id = "defaultnav">
+          <li class="nav-item Visualization" >
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="Drop-down">
+                <!-- <a class="dropdown-item" href="vis1.html">Temperature and Humidity</a>
+                <a class="dropdown-item" href="vis2.html">Wind Speed and Cloudiness</a>
+                <a class="dropdown-item" href="vis3.html">Northern Hemisphere</a>
+                <a class="dropdown-item" href="vis4.html">Southern Hemisphere</a> -->
+              </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Placeholder</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <h1 class = "position-relative">Machine Learning (Sequential and Linear model) Discovering Exoplanet</h1>
+    <div id = "links" class = "text-right"><a href = "https://github.com/jamess2eagle/machine-learning-challenge" target="_blank">Git Hub</a></div>
+    <hr>
+    <div class="row">
+        <div class="column col-12">
+            <div class = "ml-2"><strong>Background: </strong>The purpose of this project is to discover hidden planets using <a href = "https://github.com/jamess2eagle/machine-learning-challenge/blob/main/exoplanet_data.csv" target="_blank">NASA keplar space telescope data</a> and machine learning in Python. In the data, there are various columns of telescope data and more detailed description can be found in <a href = "https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html" target="_blank">the NASA Exoplanet Archieve Website</a> </div>
+            <div class = "ml-2"><strong>Methods: </strong> This project was completed by using <u>Python</u>, and multiple libraries like <u> Sklearn, Tensorflow, Pandas and Joblib</u> were used for machine learning purposes.</div>
+            <br>
+            <div class = "text-center" style ="font-size:25px"><strong>&lt;Analysis&gt;</strong></div>
+            <div class="container" id = "bigger_container" >
+                <div id="carouselExampleControls" class="carousel slide" data-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100" src="exoplanet/Slide1.png">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="exoplanet/Slide2.png">
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+
+                        
+                    </ol>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
