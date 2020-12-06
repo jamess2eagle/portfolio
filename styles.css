@@ -29,12 +29,13 @@
 
 .container {
   width: 1000px;
+  padding: 0px;
   margin: 0 auto;
   left: 0px;
 }
 
 #bigger_container{
-  width: 1138px;
+  width: 1500px;
   margin: 0 auto;
   left: 0px;
 }
