@@ -9,9 +9,61 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <script src="header.js"></script>
-    
+    <h1 class = "position-relative">Reinforement learning</h1>
+    <hr>
+    <div id = "links" class = "text-right"> <a href = "https://github.com/jamess2eagle/reinforcement-learning/tree/main" target="_blank">Git Hub</a></div>
+    <div class="row">
+        <div class="column col-12">
+            <div class = "ml-2"><strong>Background: </strong>The purpose of this project is to learn how to apply reinforcement learning on Python. Reinforcement learning is where the AI figuring out what actions are beneficial based on the rewards it is getting after each episode. First part is to use the gym environment in Python and the goal is to use Q learning to make the car go up the cliff. Second part is to make our own environment where the the goal of the game is for the player(blue) to avoid the enemy(red) and eat food(green). This project was based off of tutorials from <a href = "https://pythonprogramming.net/q-learning-reinforcement-learning-python-tutorial/" target="_blank">pythonprogramming.net</a></div>
+            <div class = "ml-2"><strong>Hypotheses:</strong> <u>H1A:</u> Washington counties grouped by political affiliation will show a significant difference in Covid-19 outcomes (cases, hospitalizations, and deaths).
+            <br>
+            <br>
+            <br>
+            <div class="text-center">
+                <h3>&lt;Q learning on Python Gym environment&gt;</h3>
+                <img class="w-50 img-thumbnail" src="reinforcement learning/car.gif">
+                <h5>The AI is learning how to climb up the cliff through each episdoes based on the reward system.</h5>
+                <br>
+                <br>
+                <br>
+                <h3>&lt;Q learning on a custom built environment&gt;</h3>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column col-3"></div>
+            <div class="column col-3">
+                <div class="text-center">
+                    <h3>&lt;Before it was trained&gt;</h3>
+                    <img class="w-100 img-thumbnail" src="reinforcement learning/game_before.gif">
+                </div> 
+            </div>
+            <div class="column col-3">
+                <div class="text-center">
+                    <h3>&lt;After it was trained&gt;</h3>
+                    <img class="w-100 img-thumbnail" src="reinforcement learning/game_after.gif">
+                </div>
+            </div>
+            <div class="column col-3"></div>
+        </div>
+    </div>
+    <div class="column col-12">
+        <div class="text-center">
+            <br>
+            <br>
+            <br>
+            <h3>&lt;Results&gt;</h3>
+            <h3> The graphs below show the rewards(how well it did) over the period of episodes. As the AI goes through more episodes, the results were better.</h3>
+            <br>
+            <img class="w-50 img-thumbnail" src="reinforcement learning/Figure_1.png">
+            <br>
+            <img class="w-50 img-thumbnail" src="reinforcement learning/Figure_2.png">
+        </div>
+    </div>      
+    <br>
+    <br>
+    <br>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

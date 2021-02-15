@@ -16,7 +16,7 @@ document.write('<nav class="navbar navbar-expand navbar-dark bg-dark">\
                 <a class="dropdown-item" href="weather.html">&#9733; <strong>HTML, CSS, JS, D3, Leaflet, API, Python, Pymongo, Flask, Chart.js</strong> - Weather Warning Map</a>\
                 <a class="dropdown-item" href="exoplanet.html">&#9733; <strong>Python, Sklearn, Tensorflow, Pandas, Joblib</strong> - Machine Learning (Sequential and Linear model) Discovering Exoplanet</a>\
                 <a class="dropdown-item" href="stock.html"> &#9733; <strong>Python, Sklearn, Tensorflow, Numpy, Pandas, Matplotlib, API</strong> - Machine Learning (LSTM model) Predicting Stock Prices</a>\
-                <a class="dropdown-item" href="rl.html"> &#9733; <strong>Python</strong> - Coming soon</a>\
+                <a class="dropdown-item" href="rl.html"> &#9733; <strong>Python</strong> - Training AI to play a game using reinforcement learning</a>\
               </div>\
           </li>\
           <li class="nav-item Visualization" >\
